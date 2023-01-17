@@ -1,0 +1,22 @@
+form {
+    max-width: 400px;
+    padding: 2rem;
+    border: 2px solid transparent;
+    margin: 0 auto;
+}
+label{
+    font-weight: 700;
+}
+h2{
+ text-align: center;
+ margin: 2rem;
+ font-size: 2rem;
+ font-weight: 600;
+}
+form input, form textarea{
+    width: 100%;
+    border: 2px solid rgb(182, 131, 230);
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}

@@ -1,0 +1,46 @@
+.displayTimer{
+    width: 200px;
+    border:2px solid purple;
+    font-size: 1.2rem;
+    letter-spacing: 0.75rem;
+    color: rgb(255, 34, 0);
+    font-weight: 800;
+    padding: 2rem;
+    margin: auto;
+    border-radius: 10px;
+}
+li{
+    list-style-type: none;
+    margin: 0;
+}
+.btn{
+    padding: 1rem 3rem;
+    margin: 2rem 0.75rem;
+    border:1px solid blueviolet;
+    color: white;
+}
+.btn-start{
+    background-color: rgb(89, 247, 89);
+}
+.btn-pause {
+    background-color: orange
+}
+.btn-save{
+    background-color: blue;
+}
+.btn-cancel{
+    background-color: rgb(237, 27, 27);
+}
+.items {
+    display: flex;
+    justify-content: center;
+    flex-direction:column-reverse;
+}
+.items li {
+    padding: 1.2rem;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: rgb(132, 236, 227);
+    color: rgb(226, 33, 33);
+}
